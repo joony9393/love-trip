@@ -1,7 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { css } from '@emotion/react'
 
 import 'swiper/css'
+
+import { css } from '@emotion/react'
 
 function Carousel({ images }: { images: string[] }) {
   return (

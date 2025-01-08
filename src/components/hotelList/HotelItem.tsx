@@ -15,8 +15,6 @@ import { useEffect, useState } from 'react'
 function HotelItem({ hotel }: { hotel: Hotel }) {
   const [remainedTime, setRemainedTime] = useState(0)
 
-  console.log('remainedTime', remainedTime)
-
   useEffect(() => {
     if (hotel.events == null || hotel.events.promoEndTime == null) {
       return
